@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "6rFiwLzNxr8ov3DHB+EmhjgB23yDvMF4WGm1waxbJA3HHvzJKGZRo/RIbweJXx6ZSop+Dqs23mZbv8C9Ze8KeA==",
+  "success": true,
+  "projectFilePath": "D:\\bin\\WinTestProject\\WinTestProject\\WinTestProject\\WinProject.Testing.Framework\\WinProject.Testing.Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Влад\\.nuget\\packages\\interop.uiautomationclient.signed\\10.19041.0\\interop.uiautomationclient.signed.10.19041.0.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\uiacomwrappernetstandard\\1.0.1\\uiacomwrappernetstandard.1.0.1.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

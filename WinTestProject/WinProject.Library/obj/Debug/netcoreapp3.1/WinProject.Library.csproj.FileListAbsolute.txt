@@ -1,0 +1,10 @@
+D:\Новая папка\WinTestProject\WinProject.Library\bin\Debug\netcoreapp3.1\WinProject.Library.deps.json
+D:\Новая папка\WinTestProject\WinProject.Library\bin\Debug\netcoreapp3.1\WinProject.Library.dll
+D:\Новая папка\WinTestProject\WinProject.Library\bin\Debug\netcoreapp3.1\WinProject.Library.pdb
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.csproj.AssemblyReference.cache
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.AssemblyInfoInputs.cache
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.AssemblyInfo.cs
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.csproj.CoreCompileInputs.cache
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.dll
+D:\Новая папка\WinTestProject\WinProject.Library\obj\Debug\netcoreapp3.1\WinProject.Library.pdb

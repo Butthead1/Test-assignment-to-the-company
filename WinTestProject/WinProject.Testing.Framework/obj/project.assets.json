@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Interop.UIAutomationClient.Signed/10.19041.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Interop.UIAutomationClient.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Interop.UIAutomationClient.dll": {}
+        }
+      },
+      "UIAComWrapperNetstandard/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Interop.UIAutomationClient.Signed": "10.19041.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/UIAComWrapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/UIAComWrapper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Interop.UIAutomationClient.Signed/10.19041.0": {
+      "sha512": "F/C8AyzpqOSppZgl8DXxfhoS60IhoVLLF4goNT5HjRR+Z36c+4vQ9CHFdNWZ9Xwo63/mF5m1SxSplLCCqNOIcg==",
+      "type": "package",
+      "path": "interop.uiautomationclient.signed/10.19041.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/Interop.UIAutomationClient.targets",
+        "interop.uiautomationclient.signed.10.19041.0.nupkg.sha512",
+        "interop.uiautomationclient.signed.nuspec",
+        "lib/net35/Interop.UIAutomationClient.dll",
+        "lib/net40/Interop.UIAutomationClient.dll",
+        "lib/net45/Interop.UIAutomationClient.dll",
+        "lib/netcoreapp3.0/Interop.UIAutomationClient.dll",
+        "lib/netstandard2.0/Interop.UIAutomationClient.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "UIAComWrapperNetstandard/1.0.1": {
+      "sha512": "yCRzbXWamuc92lNnKTbgm7tGA2In4PLTVSTi99PeNp5Kk8ssB8FUcR2Eyiy1QbaeRHR39Mnxzada9V7b+21syA==",
+      "type": "package",
+      "path": "uiacomwrappernetstandard/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/UIAComWrapper.dll",
+        "uiacomwrappernetstandard.1.0.1.nupkg.sha512",
+        "uiacomwrappernetstandard.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "UIAComWrapperNetstandard >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Влад\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\bin\\WinTestProject\\WinTestProject\\WinTestProject\\WinProject.Testing.Framework\\WinProject.Testing.Framework.csproj",
+      "projectName": "WinProject.Testing.Framework",
+      "projectPath": "D:\\bin\\WinTestProject\\WinTestProject\\WinTestProject\\WinProject.Testing.Framework\\WinProject.Testing.Framework.csproj",
+      "packagesPath": "C:\\Users\\Влад\\.nuget\\packages\\",
+      "outputPath": "D:\\bin\\WinTestProject\\WinTestProject\\WinTestProject\\WinProject.Testing.Framework\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Влад\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "UIAComWrapperNetstandard": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

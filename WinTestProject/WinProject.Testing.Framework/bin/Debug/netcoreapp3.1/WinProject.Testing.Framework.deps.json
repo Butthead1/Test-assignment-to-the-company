@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WinProject.Testing.Framework/1.0.0": {
+        "dependencies": {
+          "UIAComWrapperNetstandard": "1.0.1"
+        },
+        "runtime": {
+          "WinProject.Testing.Framework.dll": {}
+        }
+      },
+      "Interop.UIAutomationClient.Signed/10.19041.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Interop.UIAutomationClient.dll": {
+            "assemblyVersion": "10.0.19041.0",
+            "fileVersion": "10.0.19041.0"
+          }
+        }
+      },
+      "UIAComWrapperNetstandard/1.0.1": {
+        "dependencies": {
+          "Interop.UIAutomationClient.Signed": "10.19041.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/UIAComWrapper.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinProject.Testing.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.UIAutomationClient.Signed/10.19041.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F/C8AyzpqOSppZgl8DXxfhoS60IhoVLLF4goNT5HjRR+Z36c+4vQ9CHFdNWZ9Xwo63/mF5m1SxSplLCCqNOIcg==",
+      "path": "interop.uiautomationclient.signed/10.19041.0",
+      "hashPath": "interop.uiautomationclient.signed.10.19041.0.nupkg.sha512"
+    },
+    "UIAComWrapperNetstandard/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yCRzbXWamuc92lNnKTbgm7tGA2In4PLTVSTi99PeNp5Kk8ssB8FUcR2Eyiy1QbaeRHR39Mnxzada9V7b+21syA==",
+      "path": "uiacomwrappernetstandard/1.0.1",
+      "hashPath": "uiacomwrappernetstandard.1.0.1.nupkg.sha512"
+    }
+  }
+}
